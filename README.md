@@ -4,24 +4,45 @@ Ionic Tree View
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Clone the project https://github.com/missakation/IonicTreeView.git
 
 ### Prerequisites
 
+The project has been built with Ionic 3 and Angular 5
 
-### Installing
+## 
 
+There is a component called ResourceTree in a file names ResourceTree.ts.
 
-## Deployment
+From any page just call it like 
 
+<resource-tree-view [TreeData]="Family" [hasCheckbox]="true"></resource-tree-view>
 
+TreeData should have this structure
+
+this.Family = [{
+      FileName: "GrandFather",
+      Checked: false,
+      Children: [
+        {
+          FileName: "Mom",
+          Checked: false,
+
+          Children: {
+            FileName: "Me",
+            Checked: false,
+          }
+        },
+        {
+          FileName: "Dad",
+          Checked: false,
+        }
+      ]
+    }]
+  }
 
 ## Authors
 
-* **Missak Boyajian** 
-
-## License
-
-
+* **Missak Boyajian** missakboya@live.com
 
 ## Acknowledgments

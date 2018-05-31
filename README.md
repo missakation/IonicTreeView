@@ -1,6 +1,6 @@
 # Project Title
 
-Ionic Tree View
+This is a simple project that produces a Tree View Structure in an Ionic Application.
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ Clone the project https://github.com/missakation/IonicTreeView.git
 
 The project has been built with Ionic 3 and Angular 5
 
-## 
+## How it Works
 
 There is a component called ResourceTree in a file names ResourceTree.ts.
 
@@ -48,5 +48,3 @@ this.Family = [{
 ## Authors
 
 * **Missak Boyajian** missakboya@live.com
-
-## Acknowledgments

@@ -16,13 +16,13 @@ There is a component called ResourceTree in a file names ResourceTree.ts.
 
 From any page just call it like 
 
-'''
+```
 <resource-tree-view [TreeData]="Family" [hasCheckbox]="true"></resource-tree-view>
-'''
+```
 
 TreeData should have this structure
 
-'''
+```
 this.Family = [{
       FileName: "GrandFather",
       Checked: false,
@@ -43,7 +43,7 @@ this.Family = [{
       ]
     }]
   }
-  '''
+```
 
 ## Authors
 

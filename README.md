@@ -14,6 +14,37 @@ The project has been built with Ionic 3 and Angular 5
 
 There is a component called ResourceTree in a file names ResourceTree.ts.
 
+Import ResourceTree in app.module.ts
+```
+import { ResourceTree } from '../components/ResourceTree/ResourceTree';
+
+@NgModule({
+  declarations: [
+    MyApp,
+    HomePage,
+    ListPage,
+    ResourceTree
+  ],
+  imports: [
+    BrowserModule,
+    IonicModule.forRoot(MyApp),
+  ],
+  bootstrap: [IonicApp],
+  entryComponents: [
+    MyApp,
+    HomePage,
+    ListPage,
+    ResourceTree
+  ],
+  providers: [
+    StatusBar,
+    SplashScreen,
+    {provide: ErrorHandler, useClass: IonicErrorHandler}
+  ]
+})
+
+```
+
 From any page just call it like 
 
 ```
